@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>请求方式演示-GET-POST</title>
+    </head>
+<body>
+<div>
+    <form action="/user" method="post">
+        <label for="username1">用户名：</label>
+        <input type="text" id="username1" name="username" placeholder="请输入用户名">
+        <label for="password1">密码：</label>
+        <input type="password" id="password1" name="password" placeholder="请输入密码">
+        <input type="submit" value="提交">
+    </form>
+</div>
+<br><br><br><br>
+<div>
+    <form action="/user" method="get">
+        <label for="username2">用户名：</label>
+        <input type="text" id="username2" name="username" placeholder="请输入用户名">
+        <label for="password2">密码：</label>
+        <input type="password" id="password2" name="password" placeholder="请输入密码">
+        <input type="submit" value="提交">
+    </form>
+</div>
+</body>
+</html>
+```
